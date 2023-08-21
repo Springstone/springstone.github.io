@@ -1,4 +1,4 @@
 baseURL = 'http://springstone.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Springstone Blog'
 theme = 'ace-documentation'
