@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="alternate" type="application/rss+xml" href="http://springstone.github.io/index.xml" title="My New Hugo Site" />
+    <meta name="description" content="Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects.">
+    
+    <link rel="alternate" type="application/rss+xml" href="http://springstone.github.io/index.xml" title="Springstone Blog" />
     <link rel="canonical" href="http://springstone.github.io/">
 
     <title>
         
-         | My New Hugo Site
+        Home | Springstone Blog
         
     </title>
 
@@ -33,7 +35,7 @@
         <div>
             <a class="navbar-brand" href="/">
                 
-                My New Hugo Site
+                Springstone Blog
             </a>
         </div>
         
@@ -58,6 +60,13 @@
         
 
          <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/general/" class="nav-item my-1
+        ">
+        
+        
+          <a class="nav-link p-0" href="/general/"><h6>General</h6></a>
+        
+    </li>
         </ul>
     </div>
 </nav>
@@ -65,21 +74,28 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-heading">Some Heading</a></li>
+    <li><a href="#features">Features</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 	
-			<h1>Customize your own home page</h1>
-			<p>
-			  The site is working. Don't forget to customize this homepage with your own. You typically have 2 choices :
-			</p>
-			<ul>
-			  <li><b>1. </b> Create an _index.md document in the content folder</li>
-			  <li><b>2. </b> Configure your server to automatically redirect this home page to one of your documentation pages</li>
-			</ul>
-		<p><i class="fa fa-heart fa-4x"></i></p>
+
+	<h1>Home</h1>
+
+	<h2 id="some-heading">Some Heading</h2>
+<p class="lead">
+    Some text
+</p>
+
+<h2 id="features">Features</h2>
+<p>This is some more text.</p>
+
 	
 
 
@@ -89,7 +105,7 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/general/" title="General">General<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 
